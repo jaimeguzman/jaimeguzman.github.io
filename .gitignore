@@ -1,2 +1,5 @@
 *.tar.gz
 jguzman*
+_cache
+_site
+.DS_Store
