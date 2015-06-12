@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "First post"
-date: 2015-06-06 16:25:06 -0700
+title: First post new blog with jekyll
+date: "2015-06-06 16:25:06 -0700"
 comments: false
+published: true
 ---
+
 
 Hello world !
 
