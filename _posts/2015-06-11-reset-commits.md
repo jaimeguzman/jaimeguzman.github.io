@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "First post"
-date: 2015-06-06 16:25:06 -0700
+title: Git reset a solution always
+date: "2015-06-06 16:25:06 -0700"
 comments: false
+published: true
 ---
+
 
 Is usefull remind this... with `git` you have always a solution.. I actually make a mistake working on contrib project, and need a urgency rollback of one of my remote branches, the problema was simple delete a commit, and I found this post on stackoverflow response so usefull then I think "dude" you have to share, enjoy if you hve a bad memory like me:
 
