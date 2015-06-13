@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Git reset a solution always
-date: "2015-06-06 16:25:06 -0700"
-comments: false
+date: "2015-06-10 16:25:06 -300"
+comments: true
 published: true
 ---
 
