@@ -3,3 +3,7 @@ jguzman*
 _cache
 _site
 .DS_Store
+old_post/
+old_post*
+.gitignore*
+.gitignore
