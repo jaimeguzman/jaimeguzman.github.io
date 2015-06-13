@@ -1,12 +1,89 @@
 ---
 layout: post
-title: "Nulla vel risus dapibus"
-date: 2013-05-22 16:25:06 -0700
+title: Ejemplo de sintaxis para SCP
+date: "2013-12-22 16:25:06 -0700"
 comments: true
+published: true
 ---
 
-Nulla vel risus dapibus, fringilla nunc id, interdum magna. Vivamus non diam egestas, bibendum elit sed, condimentum quam. Integer eu ipsum ultrices, tincidunt nibh at, auctor sem. Duis iaculis purus a aliquet gravida. Sed ornare, leo venenatis dignissim condimentum, nibh arcu iaculis dui, nec vulputate ante eros laoreet sem. Fusce dapibus, ante eu blandit tincidunt, odio quam vulputate libero, et interdum tellus lorem eleifend nisi. Nam elementum vel sapien sed rhoncus. Praesent commodo neque odio. Praesent a nisl nec neque laoreet dignissim. Quisque vitae felis a nisl sodales consequat ut ac mi. Etiam varius gravida accumsan. In sed lectus nec ipsum commodo efficitur. Ut vehicula diam eu justo pellentesque, in pulvinar lorem dapibus. Donec ornare metus vitae turpis malesuada, ut aliquet dolor vulputate. Aenean eget ipsum elit. Suspendisse tempor sagittis dictum.
 
-Vivamus dapibus justo vitae tellus dignissim, non interdum odio egestas. Maecenas tincidunt sem non consequat bibendum. Aliquam cursus, enim sed rutrum porta, nisl tellus ultrices ipsum, vel vestibulum orci tellus sit amet quam. Pellentesque ut viverra lacus. Suspendisse potenti. Ut augue enim, hendrerit sed interdum sed, ullamcorper sit amet ex. Donec at mi at erat hendrerit commodo at non eros. Fusce commodo nec quam at rhoncus.
+**SCP** permite que los archivos sean copiados a, desde o entre
+diferentes **hosts**. Utiliza ssh para la transferencia de datos y
+proporciona la misma autenticación y el mismo nivel de seguridad que
+**ssh**.
 
-Aliquam molestie urna at turpis venenatis, et placerat lorem volutpat. Sed gravida arcu id lectus viverra eleifend. Sed in metus sit amet ante luctus dignissim. Etiam in sodales justo, in iaculis odio. Vestibulum accumsan felis vitae cursus pharetra. Nulla congue ipsum est, sed vulputate odio pulvinar id. Maecenas a sollicitudin turpis.
+**Ejemplos:**
+
+#### **1)** Copiar un archivo "lala.txt" **desde un host remoto a tu localhost (remote -\> local)**
+
+    $ scp tu_nombredecuentassh@remotehost.cl:lala.txt /some/local/directory
+
+####  
+
+#### **2)** Copiar el archivo "lala.txt" **desde un localhost a un host remoto (remote \<- local) .**
+
+       $ scp lala.txt tu_nombredecuentassh@remotehost.cl:/some/remote/directory
+
+####  
+
+#### **3) **Copiar el directorio **"foo"**  desde **localhost a una capeta "bar" en un host remoto. ( "bar" remote \<- "foo" localhost )**
+
+    $ scp -r foo tu_nombredecuentassh@remotehost.cl:/some/remote/directory/bar
+
+####  
+
+#### **4)**Copiar un archivo **"lala.txt"** desde un host remoto1** "rh1.cl"** a otro host to remoto  **"rh2.cl"**.**( remote1 -\> remote2 )**
+
+               $ scp tu_nombredecuentassh@rh1.cl:/some/remote/directory/lala.txt \
+
+                tu_nombredecuentassh@rh2.cl:/some/remote/directory/
+
+####  
+
+#### **5)** Copiar los archivos  "foo.txt" y "bar.txt" desde tu máquina local a tu carpeta "home" de tu host remote.  **(remote \ <- localhost: "foo.txt", "bar.txt"  )**
+
+     
+        scp foo.txt bar.txt tu_nombredecuentassh@remotehost.cl:~
+
+####  
+
+#### **6)**Copiar el archivo "lala.txt" desde localhost a un host remoto usando el  puerto 2264
+
+    $ scp -P 2264 lala.txt tu_nombredecuentassh@remotehost.cl:/some/remote/directory
+
+####  
+
+#### **7)**Copiar multiples archivo en una máquina remota a  tu directorio actual en tu localhost.
+
+    $ scp tu_nombredecuentassh@remotehost.cl:/some/remote/directory/\{a,b,c\} .
+
+ 
+    $ scp tu_nombredecuentassh@remotehost.cl:~/\{foo.txt,bar.txt\} .
+
+###  
+
+### **scp** Performance
+
+Por defecto **scp** utiliza el cifrado Triple-DES para cifrar los datos
+que se envían. Usando el sistema de cifrado **Blowfish** se ha
+demostrado que aumenta la velocidad. Esto se puede hacer mediante el uso
+de la opción **-c blowfish** en el mismo terminal.
+
+ 
+
+    $ scp -c blowfish some_file tu_nombredecuentassh@remotehost.cl:~
+
+Se sugiere que la opción **-C** para la compresión también debe ser
+utilizado para aumentar la velocidad. El efecto de la compresión, sin
+embargo, aumentará significativamente la velocidad sólo si su conexión
+es muy lenta. De lo contrario, sólo puede ser la adición de una carga
+adicional en la CPU. Un ejemplo de la utilización de blowfish y
+compresión:
+
+    $ scp -c blowfish -C local_file tu_nombredecuentassh@remotehost.cl:~
+
+### **Fuente: [http://www.hypexr.org/linux\_scp\_help.php](http://www.hypexr.org/linux_scp_help.php)**
+
+
+
+
