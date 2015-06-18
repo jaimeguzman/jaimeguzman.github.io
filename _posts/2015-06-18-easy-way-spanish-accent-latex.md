@@ -18,17 +18,15 @@ This package I recommend for a simple usage or little article:
 
 ```
     %My preference about document
-	 
-    \textheight=25cm
-    \textwidth=16cm
-    \topmargin=-2cm
-    \oddsidemargin=0cm
-    \parindent=0mm
-
-
-
+		 \textheight=25cm
+		 \textwidth=16cm
+		 \topmargin=-2cm
+		 \oddsidemargin=0cm
+		 \parindent=0mm
+	 %packages:
     \usepackage[utf8]{inputenc} %this was the solution for spanish speaker
-    \usepackage{graphicx}
+    
+	 \usepackage{graphicx}
     \usepackage{enumerate}
     \usepackage{amsmath}
     \usepackage{amssymb}
@@ -40,4 +38,4 @@ This package I recommend for a simple usage or little article:
 ```
 
 
-Enjoy =)
+Enjoy :)
