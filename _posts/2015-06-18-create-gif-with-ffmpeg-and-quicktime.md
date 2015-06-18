@@ -7,7 +7,6 @@ published: true
 ---
 
 Today I learn how to create gif with ffmpeg and quicktime player. Well I'm researching and looking issue on drupal.org issue queue and look this awesome comment from  [Rachel Lawson](https://github.com/rachellawson) . And she response my message on d.o.
-
 It's a really cool script for people that love gif =) 
 
 ----------
