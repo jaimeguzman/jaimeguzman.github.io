@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some issue with ssh-agent
-date: "2015-06-17 16:25:06 -0700"
+date: "2014-08-11 16:25:06 -0700"
 comments: true
 published: true
 ---
@@ -33,8 +33,4 @@ be set:
 
 Source: [https://coderwall.com/p/rdi\_wq](https://coderwall.com/p/rdi_wq)
 
-Enviado por jguzman el Lun, 08/11/2014 - 17:31
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
-
+ 
