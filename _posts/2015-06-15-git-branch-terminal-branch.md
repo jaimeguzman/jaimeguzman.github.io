@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Add Git Branch Name to Terminal Prompt (Mac)
-tag:git,mac,terminal,prompt,bash,osx,cli,version-control,computing
-date: "2013-12-22 16:25:06 -0700"
+date: "2013-12-22 16:25:06"
 comments: true
 published: true
 ---
