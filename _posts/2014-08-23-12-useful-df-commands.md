@@ -1,4 +1,14 @@
-12 Useful “df” Commands to Check Disk Space in Linux {.blog-post-title}
+---
+layout: post
+title: 12 Useful df Commands to Check Disk Space in Linux
+date: "2014-08-23 16:25:06"
+comments: true
+published: true
+---
+
+
+
+12 Useful “df” Commands to Check Disk Space in Linux  
 ----------------------------------------------------
 
 ​1. Check File System Disk Space Usage
