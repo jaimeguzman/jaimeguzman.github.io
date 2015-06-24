@@ -81,8 +81,4 @@ fuente: [http://unpocodejava.wordpress.com/2013/05/22/explicando-mapreduce/](ht
 
  
 
-Enviado por jguzman el Sáb, 05/31/2014 - 15:31
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
-
+ 
