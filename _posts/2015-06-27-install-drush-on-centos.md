@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ejemplo de sintaxis para SCP
-date: "2013-12-22 16:25:06 -0700"
+date: "2015-06-27 21:25:06"
 comments: true
 published: true
 ---
