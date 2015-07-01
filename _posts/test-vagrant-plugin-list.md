@@ -1,4 +1,4 @@
-<div id="main">
+ 
 
 # [Vagrant plugins](http://vagrant-lists.github.io/)
 
