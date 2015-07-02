@@ -4,7 +4,6 @@ Using Google Translate API with PHP {.blog-post-title}
 **This is a nice reference from: **[Jacek
 Barecki](http://www.sitepoint.com/author/jbarecki/) ([http://www.sitepoint.com/using-google-translate-api-php/](http://www.sitepoint.com/using-google-translate-api-php/))
 
- 
 
 *Note: an advanced continuation of this topic is
 accessible [here](http://www.sitepoint.com/auto-translating-user-submitted-content-using-google-translate-api/)*
