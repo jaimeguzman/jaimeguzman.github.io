@@ -1,4 +1,4 @@
-The Definitive Guide To PHP's isset And empty {.blog-post-title}
+The Definitive Guide To PHP's isset And empty  
 ---------------------------------------------
 
 **Source: [http://kunststube.net/isset/](http://kunststube.net/isset/)**
@@ -505,6 +505,5 @@ word in "Kunststube".
 
 Enviado por jguzman el Lun, 07/28/2014 - 09:30
 
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
+
 
