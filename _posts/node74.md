@@ -391,8 +391,5 @@ to overwrite custom aliases. See [How does Pathauto determine if the
 ‘Automatic URL alias’ checkbox should be checked or
 not?](http://drupal.org/node/1167612) for more information.
 
-Enviado por jguzman el Dom, 07/27/2014 - 15:44
 
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
 
