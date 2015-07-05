@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Ejemplo de sintaxis para SCP
+title: Install Drush on CentOS or Any base Unix
 date: "2015-06-27 21:25:06"
 comments: true
 published: true
 ---
 
 
-## cookbook
+Step by step
 
 
 1. Check if you have root access
