@@ -1,4 +1,4 @@
-MapReduce for dummies {.blog-post-title}
+MapReduce for dummies  
 ---------------------
 
 Supongamos que tenemos que hace un programa que cuente las palabras de
