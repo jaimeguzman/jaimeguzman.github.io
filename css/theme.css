@@ -55,3 +55,7 @@ body {
         color: #ee4444;
 
 }
+
+.sidebar.well ul {
+  padding-left: 15px;
+}
