@@ -1,11 +1,11 @@
 body {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #212121;
+    background-color: #ffffff;
 }
 
 .copyright {
-    color: #ffffff;
+    color: #cccccc;
 }
 
 .footer {
@@ -13,11 +13,11 @@ body {
 }
 
 .footer a {
-    color: #ee4444;
+    color: #000000;
 }
 
 .sidebar h1 {
-    color: #ee4444;
+    color: #000000;
     font-size: 1.3em;
 }
 
@@ -38,24 +38,36 @@ body {
     margin: 0;
 }
 
+.well{
+    background-color:white;
+}
 .well h1 {
-    color: #ee4444;
     font-size: 1.3em;
 }
+.well h1  a{
+    color:#000600 ;
+}
+
+
 
 .author {
-    color: #ee4444;
+    color: #00003D;
 }
 
 .author a {
-    color: #ee4444;
+    color: #00003D ;
 }
 
 .pagination{
-        color: #ee4444;
+        color: #000000;
 
 }
 
 .sidebar.well ul {
   padding-left: 15px;
+}
+
+
+.sidebar.well a {
+  color: #120000 ;
 }
