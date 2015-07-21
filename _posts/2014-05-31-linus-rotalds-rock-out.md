@@ -1,4 +1,4 @@
-Linus Torvalds haciendo de las suyas {.blog-post-title}
+Linus Torvalds haciendo de las suyas  
 ------------------------------------
 
 [**Linus Torvalds**](http://www.betazeta.com/tag/linus-torvalds/),
@@ -15,16 +15,9 @@ buen sentido del humor:
 > porque Linus Torvalds quería jugar Prince of Persia en DOS'.
 
  
-
- 
-
  
 
 Source:
 [FayerW](http://www.fayerwayer.com/2014/05/linus-torvalds-lee-tuits-malintencionados/?utm_medium=autopromo&utm_source=fayerwayer&utm_campaign=flechas)ayer
 
-Enviado por jguzman el Sáb, 05/31/2014 - 15:49
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
 
