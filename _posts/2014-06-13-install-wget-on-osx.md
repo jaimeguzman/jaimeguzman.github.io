@@ -1,4 +1,4 @@
-Install and configure wget on os x {.blog-post-title}
+Install and configure wget on os x 
 ----------------------------------
 
 Install and Configure wget on OS X Mavericks 10.9 and fix SSL GNUTLS error
@@ -96,8 +96,4 @@ like
 Homebrew](http://coolestguidesontheplanet.com/setting-up-os-x-mavericks-and-homebrew/ "Installing Homebrew on OS X Mavericks 10.9, Package Manager for Unix Apps") –
 it makes installing and maintaining these applications so easy,
 
-Enviado por jguzman el Vie, 06/13/2014 - 14:11
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
-
+ 
