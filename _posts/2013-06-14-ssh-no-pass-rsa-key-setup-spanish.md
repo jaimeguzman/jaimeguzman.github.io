@@ -1,4 +1,4 @@
-SSH sin contraseña y de forma segura usando pareja de claves RSA {.blog-post-title}
+SSH sin contraseña y de forma segura usando pareja de claves RSA  
 ----------------------------------------------------------------
 
 Todos sabemos que ssh es un protocolo muy seguro, ya que todo la
@@ -8,7 +8,7 @@ encriptada.
 Cuando hacemos una conexión a un servidor ssh lo hacemos así:\
   
 
-Código: [Seleccionar]
+
 
 ssh [usuario@direcion.ip.com](mailto:usuario@direcion.ip.com)\
 El servidor y el cliente ssh negocian el protocolo ssh que se usará (por
@@ -70,7 +70,7 @@ encriptado con la clave pública.
 El proceso es el mismo pero con una diferencia...\
   
 
-Código: [Seleccionar]
+
 
 ssh [usuario@direcion.ip.com](mailto:usuario@direcion.ip.com)\
 El servidor y el cliente ssh negocian el protocolo ssh que se usará (por
@@ -121,7 +121,7 @@ Preparación del Servidor para permitir autenticación por RSA
 Accedemos a nuestro servidor:\
   
 
-Código: [Seleccionar]
+
 
 ssh [usuario@servidor.com](mailto:usuario@servidor.com)\
 Tendremos que meter la clave como siempre.
@@ -129,13 +129,13 @@ Tendremos que meter la clave como siempre.
 Una vez dentro tendremos que editar el archivo */etc/ssh/sshd\_config*\
   
 
-Código: [Seleccionar]
+
 
 sudo nano /etc/ssh/sshd\_config\
 Buscamos las siguientes líneas y nos aseguramos de que estén así:\
   
 
-Citar
+
 
 > PubkeyAuthentication yes\
 >  AuthorizedKeysFile      %h/.ssh/authorized\_keys
@@ -154,13 +154,13 @@ Comprobamos que existe la carpeta .ssh dentro del directorio home, el
 cual debe de contener el archivo authorized\_keys\
   
 
-Código: [Seleccionar]
+
 
 ls -al  \~\
 Si no existe lo crearemos\
   
 
-Código: [Seleccionar]
+
 
 mkdir \~/.ssh\
  touch \~/.ssh/authorized\_keys\
@@ -170,13 +170,13 @@ Necesitamos reiniciar el demonio ssh y normalmente eso no supone una
 caida del cliente que está conectado a ssh... así que:\
   
 
-Código: [Seleccionar]
+
 
 sudo service ssh restart\
 Ahora ya podemos salir del ssh:\
   
 
-Código: [Seleccionar]
+
 
 exit
 
@@ -202,19 +202,19 @@ home, el cual es necesario ya que es ahí donde se generarán la pareja de
 claves.\
   
 
-Código: [Seleccionar]
+
 
 ls -al  \~\
 Si no existe lo crearemos\
   
 
-Código: [Seleccionar]
+
 
 mkdir \~/.ssh\
 Ahora generamos la pareja de claves RSA\
   
 
-Código: [Seleccionar]
+
 
 ssh-keygen -t rsa\
 Nota: ssh-keygen genera por defecto claves RSA pero por si las moscas lo
@@ -238,7 +238,7 @@ al paquete de ssh y permite copiar contenido usando ssh de forma
 segura:\
   
 
-Código: [Seleccionar]
+
 
 scp \~/.ssh/id\_rsa.pub
 [usuario@servidor.com](mailto:usuario@servidor.com):/tmp/\
@@ -254,20 +254,20 @@ authorized\_keys\
 Accedemos al servidor ssh:\
   
 
-Código: [Seleccionar]
+
 
 ssh [usuario@servidor.com](mailto:usuario@servidor.com)\
 Y ejecutamos:\
   
 
-Código: [Seleccionar]
+
 
 cat /tmp/id\_rsa.pub \>\> \~/.ssh/authorized\_keys\
 Listo, ya podemos salir del server y al entrar no usaremos clave para
 iniciar sesión, y ojo, sigue leyendo.\
   
 
-Código: [Seleccionar]
+
 
 exit
 
@@ -291,7 +291,7 @@ vinculada a la sesión y no te pida más la pass para desencriptar la
 clave privada.... ya se encargará ssh de pedírsela a ssh-agent.\
   
 
-Código: [Seleccionar]
+
 
 ssh-add \~/.ssh/id\_rsa\
 Eso nos pedirá la frase de paso que usamos para crearla, y la añadirá a
@@ -318,7 +318,7 @@ Pues para evitar ataque de fuerza bruta y que intenten sacar el pass.
 Accedemos a nuestro servidor:\
   
 
-Código: [Seleccionar]
+
 
 ssh [usuario@servidor.com](mailto:usuario@servidor.com)\
 Ya no tendríamos que meter la clave... jejeje\
@@ -326,32 +326,28 @@ Una vez dentro tendremos que editar nuevamente el archivo
 /etc/ssh/sshd\_config\
   
 
-Código: [Seleccionar]
+
 
 sudo nano /etc/ssh/sshd\_config\
 Buscamos las siguientes líneas y nos aseguramos de que estén así:\
   
 
-Código: [Seleccionar]
+
 
 \#PasswordAuthentication yes\
 Y la dejamos así:\
   
 
-Código: [Seleccionar]
+
 
 PasswordAuthentication no\
 Ahora reinicias el servicio ssh\
   
 
-Código: [Seleccionar]
+
 
 sudo service ssh restart\
 Listo, ya no os pedirá contraseña normal y exigirá identificación por
 RSA.
 
-Enviado por jguzman el Sáb, 06/14/2014 - 15:50
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
 

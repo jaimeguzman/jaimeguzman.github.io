@@ -1,4 +1,4 @@
-10 trucos de Nmap {.blog-post-title}
+10 trucos de Nmap 
 -----------------
 
  
@@ -120,11 +120,3 @@ machines or networks that are not yours.
 
 fuente
 : [http://blog.urfix.com/10-cool-nmap-tricks-techniques/](http://blog.urfix.com/10-cool-nmap-tricks-techniques/)
-
- 
-
-Enviado por jguzman el Sáb, 06/14/2014 - 15:58
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
-
