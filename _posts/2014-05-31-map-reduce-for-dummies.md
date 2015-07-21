@@ -52,12 +52,3 @@ de tareas y el reporting de resultados
 
 fuente: [https://unpocodejava.wordpress.com/2012/07/30/mapreduce-for-dummies/](https://unpocodejava.wordpress.com/2012/07/30/mapreduce-for-dummies/)
 
- 
-
- 
-
-Enviado por jguzman el Sáb, 05/31/2014 - 15:36
-
--   [blog de
-    jguzman](/es/blog/1 "Leer últimas entradas al blog de jguzman.")
-
