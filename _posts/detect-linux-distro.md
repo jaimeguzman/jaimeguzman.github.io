@@ -45,6 +45,7 @@ Fedora, Red Hat and CentOS have:
 ```
 Fedora: cat /etc/fedora-release
 Fedora release 10 (Cambridge)
+
 Red Hat/CentOS: cat /etc/redhat-release
 CentOS release 5.3 (Final)
 
