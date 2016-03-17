@@ -23,7 +23,7 @@ Basandome en un post de *@greyfocus*, que ha sido uno de los que mas me ha gusta
 PD: He traducido dentro de lo razonable, cualquier correción es bienvenida
 
 
-## Configuración
+### Configuración
 
 Para instalar se requieren hacer lo siguientes pasos para instalar Jekyll, esto puede ser 
 en windows/mac/osx, usando Vagrant:
@@ -32,24 +32,20 @@ en windows/mac/osx, usando Vagrant:
 1. Instalar Vagrant
 2. Instalar VirtualBox
 3. Instalar el plugin de vagrant: `vagrant plugin install vagrant-vbguest`
-
-
-
-
 4. Clonar este repositorio el repo de [https://github.com/greyfocus](https://github.com/greyfocus), que tiene toda la magia:
 
 ```
   git clone https://github.com/greyfocus/vagrant-jekyll.git
 ```
 
-## Comenzando la magia de vagrant
+### Comenzando la magia de vagrant
 
   ```
   vagrant up
   ```
 
 
-## Trabajando con vagrant
+### Trabajando con vagrant
 
 El concepto es igual que tener un ambiente en tu sistema operativo local. Se usa el editor
 favorito o IDE o lo que desees para complicarte la vida para modificar los archivos `.md` o 
