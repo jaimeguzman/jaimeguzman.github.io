@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Empezando el 2016 con Vagrant"
+title: "(es) Empezando el 2016 con Vagrant"
 date: 2016-03-15 16:25:06 -0700
 comments: true
 ---
 
 
-# Jugando con Vagrant y empezando a escribir algo
+# (es) Jugando con Vagrant y empezando a escribir algo !
 
 
 
