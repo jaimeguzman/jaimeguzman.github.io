@@ -33,12 +33,10 @@ en windows/mac/osx, usando Vagrant:
 2. Instalar VirtualBox
 3. Instalar el plugin de vagrant: `vagrant plugin install vagrant-vbguest`
 4. Clonar este repositorio el repo de [https://github.com/greyfocus](https://github.com/greyfocus), que tiene toda la magia:
-
-```
-  git clone https://github.com/greyfocus/vagrant-jekyll.git
-```
-
-### Comenzando la magia de vagrant
+  ```
+    git clone https://github.com/greyfocus/vagrant-jekyll.git
+  ```
+5. Comenzando la magia de vagrant
 
   ```
   vagrant up
