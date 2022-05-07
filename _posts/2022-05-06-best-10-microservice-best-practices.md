@@ -1,21 +1,4 @@
 10 Microservice Best Practices: The 80/20 Way
-=============================================
-
-Be agile in an ever-changing market with these microservice best practices to reduce efforts and maximize gains!
-
-
-
- 
-
-![MIcroservices Best Practices](https://www.simform.com/wp-content/uploads/2022/04/Microservice-architecture.png)
-
-Quick Summary :- Microservice architecture brings higher flexibility and ease of development through decoupled services. However, microservice architecture has specific challenges like efficiency, consistency, security, etc. So, here are some of the microservice best practices, along with real-life usage accounts from leading companies.
-
-[](https://www.facebook.com/sharer.php?u=https://www.simform.com/blog/microservice-best-practices/)
-[](https://twitter.com/share?url=https://www.simform.com/blog/microservice-best-practices/)
-[](https://in.linkedin.com/share?url=https://www.simform.com/blog/microservice-best-practices/)
-
-10 Microservice Best Practices: The 80/20 Way
 ---------------------------------------------
 
 Capital One, a reputed financial institution in the US, has adopted cloud-native microservice architecture. They employed [docker containers](https://aws.amazon.com/blogs/compute/microservice-delivery-with-amazon-ecs-and-application-load-balancers/) with Amazon Elastic Container Service (ECS) for advanced microservice deployments. Containerization microservice best practices helped them decouple apps.
